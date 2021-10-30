@@ -13,7 +13,9 @@ h1 {
     left: 650px;
 
     font-family: Source Code Pro;
-    font-size: 100px
+    font-size: 100px;
+
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
 }
 p {
     font-family: Source Code Pro;
@@ -22,6 +24,8 @@ p {
     position: absolute;
     top: 250px;
     left: 525px;
+
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
 }
 .SadEmoji {
     height: 256px;
@@ -31,4 +35,25 @@ p {
     top: 450px;
     left: 825px;
 
+}
+.TopButtonClass {
+    position: fixed;
+    width: 100px;
+    height: 80px;
+    top: 25px;
+    left: 25px;
+
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.TopButtonImg {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    top: 32px;
+    left: 43px;
+    z-index: -1;
 }
