@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="scripts.js"></script>
         <link rel="stylesheet" href="contact.css">
         <title>Contact - Rl242Dev</title>
         <link rel="icon" type="image/svg+xml" href="LogoSite.svg">
@@ -21,6 +22,11 @@
             <a class="TopButtonClass" href="https://rl242dev.github.io/Rl242.github.io/"></a>
                 <img src="https://www.svgrepo.com/show/9399/home.svg" class="TopButtonImg" alt="Home"></img>
         </div>
+        <div class="EnglishButton">
+            <img onclick="TranslateContact()" src="https://www.svgrepo.com/show/365950/usa.svg" class="UsaFlag" alt="UsaFlag">
+        </div>
+        <div class='FrenchButton'>
+            <img onclick="TranslateContactfr()" src="https://www.svgrepo.com/show/365915/france.svg" class="FrenchFlag" alt="FrenchFlag">
         <h1>Contact</h1>
         <div class="Arrow1">
             <div class="Line1"></div>
@@ -28,17 +34,17 @@
             <div class="ArrowLeft"></div>
         </div>
         <span class="Why">
-            <span class="Title">Pourquoi ?</span>
+            <span class="Title" id="Why">Pourquoi ?</span>
             <div class="Box">
-                <span class="Fhint">Besoin d'aide pour un projet ?</span>
-                <span class="Shint">Des idées de projets ?</span>
+                <span class="Fhint" id="Fhint">Besoin d'aide pour un projet ?</span>
+                <span class="Shint" id="Shint">Des idées de projets ?</span>
             </div>
         </span>
         <form action="https://formspree.io/xpzkglrl" method="POST" class="Form">
             <input type="hidden" name="_subject" value="Contact request from personal website" />
             <input class="EmailInput" type="email" name="_replyto" placeholder="Email..." required>
             <textarea Class="MessageInput" name="message" placeholder="Message..." required></textarea>
-            <button type="submit" class="ButtonForm">Envoyer</button>
+            <button type="submit" class="ButtonForm" id="ButtonForm">Envoyer</button>
         </form>
         <div class="FirstA">
             <div class="Line2"></div>
