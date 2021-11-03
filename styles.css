@@ -183,7 +183,7 @@ li a:hover {
 
     position: relative;
     top: -550px;
-    left: 700px;
+    left: 640px;
 
     display:flex;
     transform: rotate(-55deg);
@@ -201,7 +201,7 @@ li a:hover {
 
     position: relative;
     top: -310px;
-    left: 850px;
+    left: 790px;
 }
 .ArrowRight2 {
     border: solid black;
@@ -213,7 +213,7 @@ li a:hover {
 
     position: relative;
     top: -242px;
-    left: 890px;
+    left: 830px;
 }
 .BgLine {
     background-color: #928B8B;
