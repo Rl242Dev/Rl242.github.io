@@ -129,6 +129,58 @@ li a:hover {
     left: 183px;
     z-index: -1;
 }
+.EnglishButton {
+    border: 3px solid #000000;
+    border-radius: 50px;
+    
+    width: 32px;
+    height: 32px;
+
+    position: fixed;
+    top: 50px;
+    left: 290px;
+}
+.UsaFlag {
+    border: 3px solid #000000;
+    border-radius: 50px;
+    
+    width: 32px;
+    height: 32px;
+
+    position: fixed;
+    top: 50px;
+    left: 290px;
+
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+
+    z-index: -1;
+}
+.FrenchButton {
+    border: 3px solid #000000;
+    border-radius: 50px;
+
+    width: 32px;
+    height: 32px;
+
+    position: fixed;
+    left: 340px;
+    top: 50px;
+}
+.FrFlag {
+    border: 3px solid #000000;
+    border-radius: 50px;
+
+    width: 32px;
+    height: 32px;
+
+    position: fixed;
+    left: 340px;
+    top: 50px;
+
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+
+    z-index: -1;
+}
 .Iam {
     font-family: Source Code Pro;
     font-style: normal;
