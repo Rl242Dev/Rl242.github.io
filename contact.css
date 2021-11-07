@@ -22,6 +22,9 @@ h1 {
     top : 20px;
     left: 200px;
 }
+.translate {
+    z-index: 1;
+}
 .UsaFlag {
     border: 3px solid #000000;
     border-radius: 50px;
