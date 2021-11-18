@@ -87,8 +87,8 @@ li a:hover {
 }
 .Github {
     position: fixed;
-    width: 100px;
-    height: 80px;
+    width: 68px;
+    height: 48px;
 
     top: 25px;
     left: 25px;
@@ -105,15 +105,15 @@ li a:hover {
     position: absolute;
     top: 5px;
     left: 15px;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
 }
 .TopButtonClass {
     position: fixed;
-    width: 100px;
-    height: 80px;
+    width: 68px;
+    height: 48px;
     top: 25px;
-    left: 165px;
+    left: 100px;
 
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 
@@ -123,22 +123,21 @@ li a:hover {
 }
 .TopButtonImg {
     position: fixed;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     top: 32px;
-    left: 183px;
+    left: 118px;
     z-index: -1;
 }
 .EnglishButton {
-    border: 3px solid #000000;
     border-radius: 50px;
     
     width: 32px;
     height: 32px;
 
     position: fixed;
-    top: 50px;
-    left: 290px;
+    top: 32px;
+    left: 200px;
 }
 .UsaFlag {
     border: 3px solid #000000;
@@ -148,23 +147,22 @@ li a:hover {
     height: 32px;
 
     position: fixed;
-    top: 50px;
-    left: 290px;
+    top: 32px;
+    left: 200px;
 
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 
     z-index: -1;
 }
 .FrenchButton {
-    border: 3px solid #000000;
     border-radius: 50px;
 
     width: 32px;
     height: 32px;
 
     position: fixed;
-    left: 340px;
-    top: 50px;
+    left: 250px;
+    top: 32px;
 }
 .FrFlag {
     border: 3px solid #000000;
@@ -174,8 +172,8 @@ li a:hover {
     height: 32px;
 
     position: fixed;
-    left: 340px;
-    top: 50px;
+    left: 250px;
+    top: 32px;
 
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 
