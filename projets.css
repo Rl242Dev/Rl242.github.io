@@ -159,7 +159,4 @@ a:visited {
     top: 30px;
     left: 80px;
 }
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
+
