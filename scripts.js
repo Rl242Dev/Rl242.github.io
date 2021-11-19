@@ -27,6 +27,14 @@ window.addEventListener('load', () => {
     loader.classList.add('fondu-out');
 
 })
+function Time() {
+  myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementByClassName("loader").style.display = "none";
+  document.getElementByClassName("Page").style.display = "block";
+}
+
 /* Only Translate 404 And Contact because :
 1. Simple since not a lot of Text
 2. Because in "Index.html" & "Projets.html" There's some letters with special Style Code that cannot be done with Javascript or i just Don't know how to do it
