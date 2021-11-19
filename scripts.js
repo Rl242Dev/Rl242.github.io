@@ -22,7 +22,7 @@ function TranslateContactfr() {
 }
 const loader = document.querySelector('.loader');
 
-window.addEventListener('DOMCotentLoaded', () => {
+window.addEventListener('load', () => {
 
     loader.classList.add('fondu-out');
 
