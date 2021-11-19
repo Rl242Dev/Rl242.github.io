@@ -1,161 +1,116 @@
-body {
-    height: 900px;
-    width: 1000px;
-    
-    background: -webkit-linear-gradient(90deg, #e5e5e5 50%, #c4c4c4 50%);
-    background: -o-linear-gradient(90deg, #e5e5e5 50%, #c4c4c4 50%);
-    background: -moz-linear-gradient(90deg, #e5e5e5 50%, #c4c4c4 50%);
-    background: linear-gradient(90deg, #e5e5e5 50%, #c4c4c4 50%);
-}
-.Github {
-    position: fixed;
+.Circle1{
     width: 100px;
-    height: 80px;
+    height: 100px;
 
-    top: 25px;
-    left: 25px;
-    right: 750px;
-    bottom: 1475px;
+    border-radius: 200px;
+    background-color: #EC1313;
 
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-
-    border: 3px solid #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-.GithubImg {
-    position: absolute;
-    top: 5px;
-    left: 15px;
-    width: 64px;
-    height: 64px;
-}
-.StinkTitle {
     position: relative;
-    top: 150px;
-    left: 400px;
+    top: 380px;
+    left: 600px;
 
-    font-family: Source Code Pro;
-    font-size: 48px;
+    animation-name: Circle1Change;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+
 }
-a:link {
-    color: #000000;
+@keyframes Circle1Change {
+    0% {
+        margin-bottom: 0%;
+    }
+    50% {
+        margin-bottom: 20%;
+    }
+    100% {
+        margin-bottom: 0%;
+    }
 }
-a:visited {
-    color: #000000;
+.Circle2 {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 200px;
+    background-color: #EC7413;
+
+    position: relative;
+    top: 280px;
+    left: 900px;
+
 }
-.Line1 {
+.Circle3 {
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 200px;
+    background-color: #188927;
+
+    position: relative;
+    top: 180px;
+    left: 1200px;
+
+    animation-name: Circle3Change;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+@keyframes Circle3Change {
+    0% {
+        margin-bottom: 0%;
+    }
+    50% {
+        margin-top: 20%;
+    }
+    100% {
+        margin-bottom: 0%;
+    }
+}
+/*
+.Group {
+    animation-name: LineChange;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+@keyframes LineChange {
+    0% {
+        margin-left: 10%;
+        width: 100%;
+      }
+    
+    50% {
+        margin-left: 0%;
+        width: 100%;
+      }
+    
+    100% {
+        margin-left: 10%;
+        width: 100%;
+    }
+}
+*/
+.Line {
+    width: 750px;
+    height: 4px;
     background-color: #000000;
-    width: 150px;
-    height: 3px;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     position: relative;
+    top: 350px;
+    left: 600px;
 }
 .ArrowRight {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-
-    position: relative;
-    top: -44px;
-    right: 2.4px;
-}
-.ArrowLeft {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 
     position: relative;
-    top: -44px;
-    left: 105px;
+    top: 338px;
+    left: 1343px;
 }
-.Description1 {
-    font-size: 30px;
-
-    position: relative;
-    top: 25px;
-    left: -375px;
-}
-.STC {
-    position: relative;
-    top: 150px;
-    left: 100px;
-}
-.TopButtonClass {
-    position: fixed;
-    width: 100px;
-    height: 80px;
-    top: 25px;
-    left: 165px;
-
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-
-    border: 3px solid #000000;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-.TopButtonImg {
-    position: fixed;
-    width: 64px;
-    height: 64px;
-    top: 32px;
-    left: 183px;
-    z-index: -1;
-}
-.CovidPrevTitle {
-    font-family: Source Code Pro;
-    font-size: 48px;
-
-    position: relative;
-    top: 300px;
-    left: 850px;
-}
-.Line2 {
-    background-color: #000000;
-    width: 490px;
-    height: 3px;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    position: relative;
-    left: 325px;
-}
-.ArrowRight2 {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-
-    position: relative;
-    top: -44px;
-    right: -323px;
-}
-.ArrowLeft2 {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-
-    position: relative;
-    top: -44px;
-    left: 770.4px;
-}
-.Description2 {
-    font-size: 30px;
-
-    position: relative;
-    top: 30px;
-    left: 80px;
+.fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
 }
