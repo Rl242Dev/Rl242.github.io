@@ -50,8 +50,8 @@ h1 {
 }
 .Github {
     position: fixed;
-    width: 100px;
-    height: 80px;
+    width: 68px;
+    height: 48px;
 
     top: 25px;
     left: 25px;
@@ -73,8 +73,8 @@ h1 {
 }
 .TopButtonClass {
     position: fixed;
-    width: 100px;
-    height: 80px;
+    width: 68px;
+    height: 48px;
     top: 25px;
     left: 165px;
 
