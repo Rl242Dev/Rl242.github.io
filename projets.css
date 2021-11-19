@@ -27,8 +27,8 @@ body {
     position: absolute;
     top: 5px;
     left: 15px;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
 }
 .StinkTitle {
     position: relative;
@@ -104,8 +104,8 @@ a:visited {
 }
 .TopButtonImg {
     position: fixed;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     top: 32px;
     left: 183px;
     z-index: -1;
