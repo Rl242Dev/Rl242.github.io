@@ -20,13 +20,6 @@ function TranslateContactfr() {
     document.getElementById('Shint').innerHTML = 'Des idées de projets ?';
     document.getElementById('ButtonForm').innerHTML = 'Envoyer';
 }
-const loader = document.querySelector('.loader');
-
-window.addEventListener('load', () => {
-
-    loader.classList.add('fondu-out');
-
-})
 function Time() {
   myVar = setTimeout(showPage, 3000);
 }
