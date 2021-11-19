@@ -20,6 +20,13 @@ function TranslateContactfr() {
     document.getElementById('Shint').innerHTML = 'Des idées de projets ?';
     document.getElementById('ButtonForm').innerHTML = 'Envoyer';
 }
+const loader = document.querySelector('.loader');
+
+window.addEventListener('load', () => {
+
+    loader.classList.add('fondu-out');
+
+})
 /* Only Translate 404 And Contact because :
 1. Simple since not a lot of Text
 2. Because in "Index.html" & "Projets.html" There's some letters with special Style Code that cannot be done with Javascript or i just Don't know how to do it
