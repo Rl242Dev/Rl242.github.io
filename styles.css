@@ -19,9 +19,6 @@ body {
     background: -moz-linear-gradient(125deg, #E5E5E5 40%, #928B8B 40%);
     background: linear-gradient(125deg, #E5E5E5 40%, #928B8B 40%);
 }
-.Page {
-    display: none;
-}
 q {
     position: absolute;
     width: 755px;
