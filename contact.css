@@ -68,8 +68,8 @@ h1 {
     position: absolute;
     top: 5px;
     left: 15px;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
 }
 .TopButtonClass {
     position: fixed;
@@ -86,8 +86,8 @@ h1 {
 }
 .TopButtonImg {
     position: fixed;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
     top: 32px;
     left: 183px;
     z-index: -1;
