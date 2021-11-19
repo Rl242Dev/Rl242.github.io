@@ -17,7 +17,7 @@ body {
     right: 750px;
     bottom: 1475px;
 
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     border: 3px solid #000000;
     box-sizing: border-box;
@@ -96,7 +96,7 @@ a:visited {
     top: 25px;
     left: 165px;
 
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     border: 3px solid #000000;
     box-sizing: border-box;
