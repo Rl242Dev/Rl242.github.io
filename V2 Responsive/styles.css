@@ -22,6 +22,7 @@ body {
     color : #383838;
 
     line-height: 140%;
+    font-size: 16px;
 }
 .print-color {
     color: #31DA47;
@@ -81,7 +82,7 @@ body {
     margin-top: 4.7%;
     margin-left: 64%;
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
     
     color: #F3F3F2;
@@ -92,7 +93,7 @@ body {
     margin-top: 3.7%;
     margin-left: 0.5%;
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
 
     color: #F3F3F2;
@@ -103,7 +104,7 @@ body {
     margin-top: 5.7%;
     margin-left: 0.5%;
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
 
     color: #F3F3F2;
@@ -114,7 +115,7 @@ body {
     margin-top: 7.7%;
     margin-left: 0.5%;
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
 
     color: #F3F3F2;
@@ -130,7 +131,7 @@ body {
     margin-top: 9.7%;
     margin-left: 0.5%;
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
 
     color: #F3F3F2;
@@ -141,7 +142,7 @@ body {
     margin-top: 11.7%;
     margin-left: 0.5%;
 
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ubuntu Mono', monospace;
 
     color: #F3F3F2;
